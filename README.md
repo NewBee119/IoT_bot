@@ -9,9 +9,9 @@ IoT_bot是在Mirai的基础上改的一个简单的物联网设备运行程序
 **运行**      
 sever端：         
 安装nc， nc -l 9999 监听9999端口       
-client端：      在debug目录下运行 mirai.dbg   
+client端： 在debug目录下运行 mirai.dbg        
 **运行截图**            
 server端：    
-[github](https://github.com/scu-igroup/IoT_bot/images/cc.png "github")       
+![image](https://github.com/scu-igroup/IoT_bot/raw/master/images/cc.png)       
 client端：    
-[github](https://github.com/scu-igroup/IoT_bot/images/bot.png "github")   
+![image](https://github.com/scu-igroup/IoT_bot/raw/master/images/bot.png)
