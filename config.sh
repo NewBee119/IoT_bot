@@ -7,7 +7,7 @@ function download_bins {
     echo "ready to download: $1.tar.bz2"
     wget "${download_url}$1.tar.bz2" "--no-check-certificate"
     echo "ready to tar: $1.tar.bz2"
-    tar -jxf /root/Documents/igroup/cross-compiler-$1.tar.bz2
+    tar -jxf $install_path/cross-compiler-$1.tar.bz2
     sed -i '$a\export PATH=$PATH:'$install_path'/cross-compiler-'$1'/bin' /etc/profile 
 }
 
